@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": [
+      "esnext"
+    ],
+    "baseUrl": "src",
+    "paths": {
+      "*": ["src/*", "dist/*"]
+    },
+
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "strict": true,
+    "pretty": true,
+
+    "sourceMap": true,
+    "declaration": true,
+
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": ["node_modules", "**/__tests__/*"],
+
+}
